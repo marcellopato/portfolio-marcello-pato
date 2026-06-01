@@ -25,7 +25,7 @@ if (empty($nome) || empty($email) || empty($mensagem)) {
 }
 
 // Configurações do E-mail
-$to = "contato@marcello.dantascorreia.com.br"; // Substitua pelo seu email da HostGator (ou o que desejar)
+$to = "marcello@dantascorreia.com.br"; // Substitua pelo seu email da HostGator (ou o que desejar)
 $subject = "Novo Contato via Portfólio - " . $nome;
 
 $body = "Você recebeu uma nova mensagem do site:\n\n";
